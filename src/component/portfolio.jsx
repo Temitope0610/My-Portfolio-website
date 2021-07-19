@@ -97,7 +97,7 @@ class Portfolio extends React.Component{
                             </span>
                         </div>
                         <div className='card-container'>
-                            <img src={Grandell} alt="grandell project" height='300'/>
+                            <img src={Grandell} alt="grandell project" height='80'/>
                             <span className='card-desc'>
                                 <h2>Grandell Project</h2>
                                 {/* <p>A peer-to-peer lending platform that connects lenders to borrowers.</p> */}
