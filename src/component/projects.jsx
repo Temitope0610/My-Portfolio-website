@@ -43,7 +43,7 @@ class Project extends React.Component{
                         <Col md={3} className='flip-card mb-3'>
                             <div className='funnellr-card'>
                                 <div className='front-content'>
-                                        <img src={Fun} alt="project" className='project-image' />
+                                        <img src='' alt="" className='project-image' />
                                 </div>
                                 <div className='back-content'>
                                 <h1>Metronome</h1>
@@ -55,7 +55,7 @@ class Project extends React.Component{
                         <Col md={3} className='flip-card mb-3'>
                             <div className='funnellr-card'>
                                 <div className='front-content'>
-                                        <img src={Fun} alt="project" className='project-image' />
+                                        <img src="" alt='' className='project-image' />
                                 </div>
                                 <div className='back-content'>
                                 <h1>State Locator</h1>

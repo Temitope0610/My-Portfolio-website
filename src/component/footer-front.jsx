@@ -5,6 +5,7 @@ import {RiLinkedinBoxLine} from 'react-icons/ri'
 import {RiTwitterFill} from 'react-icons/ri'
 import { AiFillGithub } from "react-icons/ai";
 
+
 class FooterFrontend extends React.Component{
     render(){
         return(

@@ -81,7 +81,7 @@ class Splashpage extends React.Component{
                            id="tsparticles"
                            init={this.particlesInit}
                            loaded={this.particlesLoaded}
-                           height='700px'
+                           height='100vh'
                            style={{}
                            }
                            options={{

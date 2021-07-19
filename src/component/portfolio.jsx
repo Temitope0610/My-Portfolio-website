@@ -9,10 +9,10 @@ import Usability from '../asset/images/Usability.png'
 import Left from '../asset/images/flow left arrow.png'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import Funnelr from '../asset/images/Home.png'
-import Play from '../asset/images/3d.jpg'
-import Foodie from '../asset/images/foodie.jpg'
-import Grandell from '../asset/images/grandell.png'
+import Funnelr from '../asset/images/Mask Group 1.png'
+import Play from '../asset/images/Mask Group 2.png'
+import Foodie from '../asset/images/Mask Group 3.png'
+import Grandell from '../asset/images/Mask Group 4.png'
 import InfiniteCarousel from 'react-leaf-carousel'
 
 class Portfolio extends React.Component{
@@ -76,15 +76,15 @@ class Portfolio extends React.Component{
                             <img src={Funnelr} alt="funnelr project" />
                             <span className='card-desc'>
                                 <h2>Funnelr Project</h2>
-                                <p>This is a project for sales and funnel creations for business owners as well as marketers.</p>
+                                {/* <p>This is a project for sales and funnel creations for business owners as well as marketers.</p> */}
                                 <button className='btn btn-see mt-3'>See More</button>
                             </span>
                         </div>
                         <div className='card-container'>
-                            <img src={Play} alt="3d play button project" height='400px' />
+                            <img src={Play} alt="3d play button project"/>
                             <span className='card-desc'>
                                 <h2>3D Play Button</h2>
-                                <p>This a simple play button showing the power of neuphormism.</p>
+                                {/* <p>This a simple play button showing the power of neuphormism.</p> */}
                                 <button className='btn btn-see mt-3'>See More</button>
                             </span>
                         </div>
@@ -92,15 +92,15 @@ class Portfolio extends React.Component{
                             <img src={Foodie} alt="foodie project" />
                             <span className='card-desc'>
                                 <h2>Foodie.Ng Project</h2>
-                                <p>A food app project for online food and beverage orders and deliveries.</p>
+                                {/* <p>A food app project for online food and beverage orders and deliveries.</p> */}
                                 <button className='btn btn-see mt-3'><a href='https://www.behance.net/gallery/101986357/Foodieng%28Food-delivery-App%29'>See More</a></button>
                             </span>
                         </div>
                         <div className='card-container'>
-                            <img src={Grandell} alt="grandell project"/>
+                            <img src={Grandell} alt="grandell project" height='300'/>
                             <span className='card-desc'>
                                 <h2>Grandell Project</h2>
-                                <p>A peer-to-peer lending platform that connects lenders to borrowers.</p>
+                                {/* <p>A peer-to-peer lending platform that connects lenders to borrowers.</p> */}
                                 <button className='btn btn-see mt-3'>See More</button>
                             </span>
                         </div>

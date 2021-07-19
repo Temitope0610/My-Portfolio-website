@@ -1,5 +1,6 @@
 import React from 'react'
 import Divide from '../asset/images/dividing icon.png'
+import Resume from '../asset/images/Temitope-soyoye-Resume.pdf'
 
 class Cv extends React.Component{
     render(){
@@ -23,7 +24,7 @@ class Cv extends React.Component{
                     </div>
                     <div className='resume-btn'>
                     <button className='btn btn-hire' ><a href='mailto:soyoyetemitope06@gmail.com' style={{color:'#ECE7E7'}}>Hire Me</a></button>
-                    <button className='btn btn-download'>Download Resume</button>
+                    <button className='btn btn-download'><a href={Resume} download>Download Resume</a></button>
 
                     </div>
                 </div>

@@ -25,6 +25,9 @@ html{
 /* splash page */
 .ui-section{
   background-color: var(--background-color);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 .icons{
   position:absolute ;
@@ -128,6 +131,9 @@ html{
 .frontend-section{
   background-color: var(--secondary-color);
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .column {
   float: left;
@@ -145,7 +151,7 @@ html{
 }
 .frontend-section h1{
   position: absolute;
-  margin: 350px 190px;
+  margin: 350px 5px;
   color: var(--pri-color);
 }
 
@@ -545,9 +551,9 @@ html{
   color: var(--secondary-color);
 }
 .resume-btn{
-  max-width: 280px;
+  max-width: 300px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px;
 }
 .btn-hire{
   width: 120px;
@@ -562,12 +568,12 @@ html{
   color: var(--secondary-color);
   text-decoration: none;
 }
-.btn-download{
+.btn-download a{
   width: 120px;
   border-radius: 5px;
   background-color: var(--pri-color);
   color: var(--text-color);
-  padding: 5px;
+  padding: 6px;
   font-size: 12px;
 }
 /* footer */
@@ -926,6 +932,9 @@ html{
   }
   .left{
     left: -15%;
+  }
+  .left::after{
+      display: none;
   }
   .right::after{
     display: none;
