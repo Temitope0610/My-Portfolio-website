@@ -177,6 +177,7 @@ html{
   background-color:#fff;
   box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.3);
   color: var(--pri-color);
+  z-index: 1;
 }
 .logo{
   width: 130px;
@@ -228,7 +229,7 @@ html{
   background: transparent;
   border:0.5px solid var(--pri-color);
   color: var(--secondary-color);
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px;
   font-size: 14px;
   padding: 5px;
   float: right;
@@ -313,7 +314,7 @@ html{
 /* About me section */
 .dividing-icon{
   height: 70px;
-  left: 700px;
+  left: 50%;
   position: absolute;
   top: 520px;
 }
@@ -337,13 +338,13 @@ html{
 .dividing-icon-portfolio1{
   left:150px;
   position:absolute;
-  top:1100px;
+  top:38%;
   height: 70px;
 }
 .dividing-icon-portfolio2{
-  left:1400px;
+  right:10%;
   position:absolute;
-  top:1100px;
+  top:38%;
   height: 70px;
 }
 .portfolio .dividing-icon-portfolio1{
@@ -368,8 +369,8 @@ html{
 .arrow-top{
   position: absolute;
   top: 200px;
-  right: 500px;
-  width: 400px;
+  right: 25%;
+  width:50%;
 }
 .arrow-right{
   position:absolute;
@@ -380,8 +381,8 @@ html{
 .arrow-down{
   position:absolute;
   top:600px;
-  right:500px;
-  width:400px;
+  right:25%;
+  width:50%;
 }
 .design-flow-elipse{
   width: 200px;
@@ -394,7 +395,7 @@ html{
   font-size: 14px;
   top: 300px;
   text-align: center;
-  left: 600px;
+  right: 45%;
 }
 .strategize .strategize-img{
   opacity: 1;
@@ -477,13 +478,13 @@ html{
 .dividing-icon-resume1{
   left:150px;
   position:absolute;
-  top:2490px; 
+  top:86%; 
   height: 70px;
 }
 .dividing-icon-resume2{
-  left:1400px;
+  right:10%;
   position:absolute;
-  top:2490px;  
+  top:86%; 
   height: 70px;
 }
 .timeline {
@@ -523,10 +524,10 @@ html{
   left: 10%;
 }
 .right::after{
-  right: 294px;
+  right: 49%;
 }
 .left::after{
-  right: 414px;
+  right: 69%;
 }
 .content{
   position: relative;
@@ -765,6 +766,7 @@ html{
   }
   .frontend-nav .mobile-nav{
     background-color: #fff;
+    padding: 0px;
   }
   .frontend-nav .items{
     color: var(--secondary-color);
@@ -831,7 +833,7 @@ html{
     
   }
   .portfolio-section{
-    margin-top: 1060px;
+    margin-top: 1160px;
   }
   .dividing-icon-portfolio1{
     display: none;
@@ -848,7 +850,7 @@ html{
   .arrow-top{
     top: 90px;
     right: 110px;
-    width: 70px;
+    width: 160px;
   }
   .arrow-right{
     right:60px;
@@ -858,14 +860,14 @@ html{
   .arrow-down{
     top:280px;
     right:100px;
-    width:70px;
+    width:160px;
   }
   .design-flow-elipse{
     width: 80px;
     height: 80px;
     padding:  32px 0px;
     top: 150px;
-    left: 110px;
+    left: 140px;
     font-size: 8px;
   }
   .card-container{
@@ -898,10 +900,19 @@ html{
     display: none;
   }
   .resume-section{
-    margin-top:200px;
+    margin-top:50px;
+  }
+  .resume-section h6{
+    margin-bottom: 25px;
+  }
+  .resume-section .timeline h2{
+    top: -22px;
   }
   .cv{
     margin-top: 830px;
+  }
+  .cv .timeline h2{
+    top: -35px;
   }
   .cv-section .dividing-icon-resume1{
     display: none;
@@ -922,7 +933,7 @@ html{
   .timeline h2{
     color: var(--secondary-color);
    position: absolute;
-   top: -35px;
+   top: -5px;
    font-size: 16px;
    right: 30%;
   }
@@ -983,6 +994,12 @@ html{
     .design-flow-elipse{
       left: 70px;
     }
+    .arrow-down{
+      width: 30px;
+    }
+    .arrow-top{
+      width: 30px;
+    }
     .resume-section {
       margin-top: 160px;
     }
@@ -1009,11 +1026,23 @@ html{
   .design-flow-elipse{
     left: 100px;
   }
+  .arrow-top{
+    width: 60px;
+  }
+  .arrow-down{
+    width:60px;
+  }
   .resume-section{
     margin-top: 170px;
   }
   .resume-section.cv{
     margin-top: 830px;
+  }
+  .container.left{
+    left: -20%;
+  }
+  .mobile-nav{
+    width: 60%;
   }
 }
 @media only screen and (width:360px){
@@ -1025,6 +1054,12 @@ html{
   }
   .design-flow-elipse{
     left: 120px;
+  }
+  .arrow-top{
+    width: 100px;
+  }
+  .arrow-down{
+    width:100px;
   }
 }
 @media only screen and (width:480px){
@@ -1039,6 +1074,12 @@ html{
   }
   .design-flow-elipse{
     left: 170px;
+  }
+  .arrow-down{
+    width: 230px;
+  }
+  .arrow-top{
+    width: 230px;
   }
   .resume-section{
     margin-top: 170px;
