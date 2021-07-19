@@ -47,12 +47,12 @@ class Uiherobox extends React.Component{
             <div className='ui-herobox'>
                 <Row>
                     <Col md='6'>
-                    <img src={Ux} className='ui-herobox-img' alt="Ui image for herobox" />
+                    <img src={Ux} className='ui-herobox-img' alt="herobox" />
                     </Col>
                     <Col md='6' className='ui-herobox-text'>
                         <div className='salute'>
                             <span className='salute-picture'>
-                                <img src={Profile} alt="" />
+                                <img src={Profile} alt="profile" />
                             </span>
                             <span className='salute-text'>{this.state.show}</span>
                             <span style={{marginLeft:'10px'}} className='wave'>👋</span>

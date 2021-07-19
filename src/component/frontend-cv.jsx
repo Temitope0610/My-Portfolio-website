@@ -5,8 +5,8 @@ class Cv extends React.Component{
     render(){
         return(
             <div className='cv-section'>
-                <img src={Divide} className='dividing-icon-resume1' />
-                <img src={Divide} className='dividing-icon-resume2' />
+                <img src={Divide} className='dividing-icon-resume1' alt='section divider' />
+                <img src={Divide} className='dividing-icon-resume2' alt='section divider'  />
                 <div className='resume-section cv' id='resume'>
                     <h6 style={{color:'#ECE7E7'}}>My Resume</h6>
                     <div className="timeline mt-5">

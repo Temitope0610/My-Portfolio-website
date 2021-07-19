@@ -24,16 +24,16 @@ class Portfolio extends React.Component{
                 <div className='portfolio-section' style={{position:'relative',height:'500px'}} id='portfolio'>
                     <h6>How I Work:</h6>
                     <div className='strategize mb-5'>
-                        <img src={Strategize} className='portfolio-imgs strategize-img' alt="picture of lady strategizing" />
+                        <img src={Strategize} className='portfolio-imgs strategize-img' alt="lady strategizing" />
                         {/* <h6>Strategize</h6> */}
-                        <img src={Design} style={{float:'right'}} className='portfolio-imgs design-img' alt="picture of lady designing" />
+                        <img src={Design} style={{float:'right'}} className='portfolio-imgs design-img' alt="lady designing" />
                     </div>
                     <img src={Flow} className='arrow-top' alt="flow arrow" />
                     <img src={Down} className='arrow-right' alt="" />
                     <img src={Left} className='arrow-down' alt="flow arrow" />
                     <div className='develop'>
                         <img src={Usability} className='portfolio-imgs usability-img' alt="" />
-                        <img src={Develop} style={{float:'right'}} className='portfolio-imgs develop-img' alt="picture of lady developing" />
+                        <img src={Develop} style={{float:'right'}} className='portfolio-imgs develop-img' alt="lady developing" />
                     </div>
                     <span className='design-flow-elipse'>
                         My Design Process
@@ -73,7 +73,7 @@ class Portfolio extends React.Component{
                       scrollOnDevice={true}
                       autoCycle={true}>
                         <div className='card-container'>
-                            <img src={Funnelr} alt="image of funnelr project" />
+                            <img src={Funnelr} alt="funnelr project" />
                             <span className='card-desc'>
                                 <h2>Funnelr Project</h2>
                                 <p>This is a project for sales and funnel creations for business owners as well as marketers.</p>
@@ -81,7 +81,7 @@ class Portfolio extends React.Component{
                             </span>
                         </div>
                         <div className='card-container'>
-                            <img src={Play} alt="image of 3d play button project" height='400px' />
+                            <img src={Play} alt="3d play button project" height='400px' />
                             <span className='card-desc'>
                                 <h2>3D Play Button</h2>
                                 <p>This a simple play button showing the power of neuphormism.</p>
@@ -89,7 +89,7 @@ class Portfolio extends React.Component{
                             </span>
                         </div>
                         <div className='card-container'>
-                            <img src={Foodie} alt="image of foodie project" />
+                            <img src={Foodie} alt="foodie project" />
                             <span className='card-desc'>
                                 <h2>Foodie.Ng Project</h2>
                                 <p>A food app project for online food and beverage orders and deliveries.</p>
@@ -97,7 +97,7 @@ class Portfolio extends React.Component{
                             </span>
                         </div>
                         <div className='card-container'>
-                            <img src={Grandell} alt="image of grandell project"/>
+                            <img src={Grandell} alt="grandell project"/>
                             <span className='card-desc'>
                                 <h2>Grandell Project</h2>
                                 <p>A peer-to-peer lending platform that connects lenders to borrowers.</p>

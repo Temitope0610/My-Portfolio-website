@@ -17,25 +17,25 @@ class Project extends React.Component{
                         <Col md={3} className='flip-card mb-3'>
                             <div className='funnellr-card'>
                                 <div className='front-content'>
-                                    <img src={Fun} alt="project-image" className='project-image'/>
+                                    <img src={Fun} alt="funnellr" className='project-image'/>
                                   
                                 </div>
                                 <div className='back-content'>
                                 <h1>Funnellr</h1>
                                     <p>This is a project about sales and how to create sales funnels for businness owners and marketres</p>
-                                    <a href=""><button className='btn btn-view'>View Code</button></a>
+                                    <a href="https://github.com/Temitope0610/Funnelr-Project"><button className='btn btn-view'>View Code</button></a>
                                 </div>
                             </div>
                         </Col> 
                         <Col md={3} className='flip-card mb-3'>
                             <div className='funnellr-card'>
                                 <div className='front-content'>
-                                        <img src={Sterling} alt="project-image" className='project-image'/>
+                                        <img src={Sterling} alt="sterling" className='project-image'/>
                                 </div>
                                 <div className='back-content'>
                                     <h1>Sterling Bank</h1>
                                     <p>This is a project cloning the website of sterling bank of Nigeria</p>
-                                    <a href=""><button className='btn btn-view'>View Code</button></a>
+                                    <a href="https://github.com/Temitope0610/Sterlingbank-clone"><button className='btn btn-view'>View Code</button></a>
                                 </div>
                                 
                             </div>
@@ -43,24 +43,24 @@ class Project extends React.Component{
                         <Col md={3} className='flip-card mb-3'>
                             <div className='funnellr-card'>
                                 <div className='front-content'>
-                                        <img src={Fun} alt="project-image" className='project-image' />
+                                        <img src={Fun} alt="project" className='project-image' />
                                 </div>
                                 <div className='back-content'>
-                                <h1>Funnellr</h1>
-                                        <p>This is a project about sales and how to create sales funnels for businness owners and marketres</p>
-                                        <a href=""><button className='btn btn-view'>View Code</button></a>
+                                <h1>Metronome</h1>
+                                        <p>A mini metronome project; beat counter</p>
+                                        <a href="https://github.com/Temitope0610/Metronome-Project"><button className='btn btn-view'>View Code</button></a>
                                 </div>
                             </div>
                         </Col> 
                         <Col md={3} className='flip-card mb-3'>
                             <div className='funnellr-card'>
                                 <div className='front-content'>
-                                        <img src={Fun} alt="project-image" className='project-image' />
+                                        <img src={Fun} alt="project" className='project-image' />
                                 </div>
                                 <div className='back-content'>
-                                <h1>Funnellr</h1>
-                                        <p>This is a project about sales and how to create sales funnels for businness owners and marketres</p>
-                                        <a href=""><button className='btn btn-view'>View Code</button></a>
+                                <h1>State Locator</h1>
+                                        <p>This is a project to pick states and local governments in Nigeria</p>
+                                        <a href="https://github.com/Temitope0610/States-Locator-Project"><button className='btn btn-view'>View Code</button></a>
                                 </div>
                             </div>
                         </Col>             

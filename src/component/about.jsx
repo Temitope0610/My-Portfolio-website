@@ -1,11 +1,10 @@
 import React from 'react'
 import Divide from '../asset/images/dividing icon.png'
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import Temitope from '../asset/images/temitope.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'wow.js'
 import '@fortawesome/fontawesome-svg-core'
-import {faSpinner } from '@fortawesome/free-solid-svg-icons'
 import { Progress } from 'react-sweet-progress'
 import "react-sweet-progress/lib/style.css";
 
@@ -17,7 +16,7 @@ class About extends React.Component{
                 <div className='about-section' id='about'>
                     <Row>
                         <Col sm='3'>
-                            <img src={Temitope} className='about-section-img' alt="an image of myself" />
+                            <img src={Temitope} className='about-section-img' alt="myself" />
                         </Col>
                         <Col sm='3' className='about-section-text'>
                             <h6>About Me</h6>

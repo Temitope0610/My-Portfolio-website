@@ -27,7 +27,7 @@ class Footer extends React.Component{
                             Hire me as a developer
                         </button>
                         </Link>
-                        <img src={Contact} alt="contact us image" className='contact-img' />
+                        <img src={Contact} alt="contact us" className='contact-img' />
                     </center>
                     <div className="bottom-footer">
                         <center>

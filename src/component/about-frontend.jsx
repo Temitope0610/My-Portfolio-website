@@ -16,7 +16,7 @@ class AboutSection extends React.Component{
                 <div className='about-section' id='about'>
                     <Row>
                         <Col sm='3'>
-                            <img src={Temitope} className='about-section-img' alt="an image of myself" />
+                            <img src={Temitope} className='about-section-img' alt="myself" />
                         </Col>
                         <Col sm='3' className='about-section-text'>
                             <h6>About Me</h6>
